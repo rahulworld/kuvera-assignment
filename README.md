@@ -1,3 +1,10 @@
-#### React Redux Starter Template
+### Kuvera Assignment
 
-This project contains a boilerplate template created from the create-react-app library and configured along with redux.
+Used Library - React, Redux, Router
+
+
+Step to install
+1. git clone git@github.com:rahulworld/simple-react-template-with-redux-and-router.git
+2. yarn install
+3. yarn start
+4. redirect to localhost:3000

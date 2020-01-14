@@ -34,9 +34,6 @@ class FundList extends Component {
   searchFilterInJson() {
     const { search } = this.state;
     if (search) {
-      // this.setState({ [type]: data });
-      // this.props.getFilterData(type, data.label);
-      // this.props.sortAndFilterData();
     }
   }
 
@@ -103,12 +100,12 @@ class FundList extends Component {
           <div className="col-3">
             {this.renderDropDown('selectPlan', 'Plan', plan, selectPlan)}
           </div>
-          <div className="col-3">
+          {/* <div className="col-3">
             <div className="row border p-1">
               <input type="text" className="col-7 form-control mr-1" id="search" placeholder="Search" onChange={this.onChangeInput} value={search} />
               <button className="btn btn-primary col-4 form-control ml-auto" onClick={() => this.searchFilterInJson()}>Search</button>
             </div>
-          </div>
+          </div> */}
         </div>
         <Table data={sortList} />
       </div>
