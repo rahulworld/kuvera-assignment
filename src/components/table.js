@@ -62,7 +62,7 @@ class Table extends React.Component {
                     <tbody>
                         { [...data].map((mf) =>
                         <tr key={mf.code}>
-                            <th style={{width: '35%', cursor: 'pointer' }}><Link to={`/fund/${mf.code}`} activeClassName="active">{mf.name}</Link></th>
+                            <th style={{width: '35%', cursor: 'pointer' }}><Link to={`/explore/${mf.code}`} activeClassName="active">{mf.name}</Link></th>
                             <td style={{width: '15%'}}>{mf.fund_category}</td>
                             <td style={{width: '10%'}}>{mf.fund_type}</td>
                             <td style={{width: '10%'}}>{mf.plan}</td>

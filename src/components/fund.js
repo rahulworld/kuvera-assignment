@@ -16,7 +16,7 @@ class Fund extends Component {
     return (
       <div className="container">
           <div className="row mt-4">
-                <div className="col-3 mt-3"><Link to={`/funds`} activeClassName="active"><i className="fa fa-arrow-left" />  Back</Link></div>
+                <div className="col-3 mt-3"><Link to={`/expore`} activeClassName="active"><i className="fa fa-arrow-left" />  Back</Link></div>
           </div>
         <h4 className="text-center m-3">Kuvera - Fund Detail</h4>
         {!selectedFund && <h5 className="text-center m-3">No funds</h5>}

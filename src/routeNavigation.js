@@ -9,8 +9,8 @@ class RouteNavigation extends PureComponent {
       <Router>
         <Switch>
             <Route exact path="/" render={(props) => <FundList {...props} /> } />
-            <Route path="/funds" render={(props) => <FundList {...props} /> } />
-            <Route path="/fund/:id" render={(props) => <Fund {...props} /> } />
+            <Route path="/expore" render={(props) => <FundList {...props} /> } />
+            <Route path="/explore/:id" render={(props) => <Fund {...props} /> } />
         </Switch>
       </Router>
     );
